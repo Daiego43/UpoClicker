@@ -1,0 +1,177 @@
+
+1--------------------------------------------------------------------
+<table class="botonedificio" onclick="generalBuy(value, 'price1', 'quantity1')" id="productN">
+	<tr>
+		<td id="image"><img src="images/" alt="newchallenger"></td>
+		<td id="nameAndCost">
+			<p>entityname</p>
+			<p><span id="price1">price</span> matriculas</p>
+		</td>
+		<td id="amount"><span id="quantity1">0</span></td>
+	</tr>
+</table>
+2--------------------------------------------------------------------
+<table class="botonedificio" onclick="generalBuy(value, 'price2', 'quantity2')" id="productN">
+	<tr>
+		<td id="image"><img src="images/" alt="newchallenger"></td>
+		<td id="nameAndCost">
+			<p>entityname</p>
+			<p><span id="price2">price</span> matriculas</p>
+		</td>
+		<td id="amount"><span id="quantity2">0</span></td>
+	</tr>
+</table>
+3--------------------------------------------------------------------
+<table class="botonedificio" onclick="generalBuy(value, 'price3', 'quantity3')" id="productN">
+	<tr>
+		<td id="image"><img src="images/" alt="newchallenger"></td>
+		<td id="nameAndCost">
+			<p>entityname</p>
+			<p><span id="price3">price</span> matriculas</p>
+		</td>
+		<td id="amount"><span id="quantity3">0</span></td>
+	</tr>
+</table>
+4--------------------------------------------------------------------
+<table class="botonedificio" onclick="generalBuy(value, 'price4', 'quantity4')" id="productN">
+	<tr>
+		<td id="image"><img src="images/" alt="newchallenger"></td>
+		<td id="nameAndCost">
+			<p>entityname</p>
+			<p><span id="price4">price</span> matriculas</p>
+		</td>
+		<td id="amount"><span id="quantity4">0</span></td>
+	</tr>
+</table>
+5--------------------------------------------------------------------
+<table class="botonedificio" onclick="generalBuy(value, 'price5', 'quantity5')" id="productN">
+	<tr>
+		<td id="image"><img src="images/" alt="newchallenger"></td>
+		<td id="nameAndCost">
+			<p>entityname</p>
+			<p><span id="price5">price</span> matriculas</p>
+		</td>
+		<td id="amount"><span id="quantity5">0</span></td>
+	</tr>
+</table>
+6--------------------------------------------------------------------
+<table class="botonedificio" onclick="generalBuy(value, 'price6', 'quantity6')" id="productN">
+	<tr>
+		<td id="image"><img src="images/" alt="newchallenger"></td>
+		<td id="nameAndCost">
+			<p>entityname</p>
+			<p><span id="price6">price</span> matriculas</p>
+		</td>
+		<td id="amount"><span id="quantity6">0</span></td>
+	</tr>
+</table>
+7--------------------------------------------------------------------
+<table class="botonedificio" onclick="generalBuy(value, 'price7', 'quantity7')" id="productN">
+	<tr>
+		<td id="image"><img src="images/" alt="newchallenger"></td>
+		<td id="nameAndCost">
+			<p>entityname</p>
+			<p><span id="price7">price</span> matriculas</p>
+		</td>
+		<td id="amount"><span id="quantity7">0</span></td>
+	</tr>
+</table>
+8--------------------------------------------------------------------
+<table class="botonedificio" onclick="generalBuy(value, 'price8', 'quantity8')" id="productN">
+	<tr>
+		<td id="image"><img src="images/" alt="newchallenger"></td>
+		<td id="nameAndCost">
+			<p>entityname</p>
+			<p><span id="price8">price</span> matriculas</p>
+		</td>
+		<td id="amount"><span id="quantity8">0</span></td>
+	</tr>
+</table>
+9--------------------------------------------------------------------
+<table class="botonedificio" onclick="generalBuy(value, 'price9', 'quantity9')" id="productN">
+	<tr>
+		<td id="image"><img src="images/" alt="newchallenger"></td>
+		<td id="nameAndCost">
+			<p>entityname</p>
+			<p><span id="price9">price</span> matriculas</p>
+		</td>
+		<td id="amount"><span id="quantity9">0</span></td>
+	</tr>
+</table>
+10--------------------------------------------------------------------
+<table class="botonedificio" onclick="generalBuy(value, 'price10','quantity10')" id="productN">
+	<tr>
+		<td id="image"><img src="images/" alt="newchallenger"></td>
+		<td id="nameAndCost">
+			<p>entityname</p>
+			<p><span id="price10">price</span> matriculas</p>
+		</td>
+		<td id="amount"><span id="quantity10">0</span></td>
+	</tr>
+</table>
+11--------------------------------------------------------------------
+<table class="botonedificio" onclick="generalBuy(value, 'price11','quantity11')" id="productN">
+	<tr>
+		<td id="image"><img src="images/" alt="newchallenger"></td>
+		<td id="nameAndCost">
+			<p>entityname</p>
+			<p><span id="price11">price</span> matriculas</p>
+		</td>
+		<td id="amount"><span id="quantity11">0</span></td>
+	</tr>
+</table>
+12--------------------------------------------------------------------
+<table class="botonedificio" onclick="generalBuy(value, 'price12','quantity12')" id="productN">
+	<tr>
+		<td id="image"><img src="images/" alt="newchallenger"></td>
+		<td id="nameAndCost">
+			<p>entityname</p>
+			<p><span id="price12">price</span> matriculas</p>
+		</td>
+		<td id="amount"><span id="quantity12">0</span></td>
+	</tr>
+</table>
+13--------------------------------------------------------------------
+<table class="botonedificio" onclick="generalBuy(value, 'price13','quantity13)" id="productN">
+	<tr>
+		<td id="image"><img src="images/" alt="newchallenger"></td>
+		<td id="nameAndCost">
+			<p>entityname</p>
+			<p><span id="price13">price</span> matriculas</p>
+		</td>
+		<td id="amount"><span id="quantity13">0</span></td>
+	</tr>
+</table>
+14--------------------------------------------------------------------
+<table class="botonedificio" onclick="generalBuy(value, 'price14','quantity14')" id="productN">
+	<tr>
+		<td id="image"><img src="images/" alt="newchallenger"></td>
+		<td id="nameAndCost">
+			<p>entityname</p>
+			<p><span id="price14">price</span> matriculas</p>
+		</td>
+		<td id="amount"><span id="quantity14">0</span></td>
+	</tr>
+</table>
+15--------------------------------------------------------------------
+<table class="botonedificio" onclick="generalBuy(value, 'price15','quantity15')" id="productN">
+	<tr>
+		<td id="image"><img src="images/" alt="newchallenger"></td>
+		<td id="nameAndCost">
+			<p>entityname</p>
+			<p><span id="price15">price</span> matriculas</p>
+		</td>
+		<td id="amount"><span id="quantity15">0</span></td>
+	</tr>
+</table>
+16--------------------------------------------------------------------
+<table class="botonedificio" onclick="generalBuy(value, 'price1'6,'quantity16')" id="productN">
+	<tr>
+		<td id="image"><img src="images/" alt="newchallenger"></td>
+		<td id="nameAndCost">
+			<p>entityname</p>
+			<p><span id="price16">price</span> matriculas</p>
+		</td>
+		<td id="amount"><span id="quantity16">0</span></td>
+	</tr>
+</table>

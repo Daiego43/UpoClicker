@@ -1,0 +1,83 @@
+/*estilo de seccion 1*/
+.sectionleft{
+	float: left;
+	width: 25%;
+	background-color: red;
+}
+
+.logoynummatriculas{
+	text-align: center;
+}
+.logoynummatriculas img{
+	position: relative;
+	transition: all .2s ease-in-out;
+}
+
+.logoynummatriculas img:hover{ transform: scale(1.10); }
+.logoynummatriculas img:active{ transform: scale(0.99);}
+
+/*estilo de seccion 2*/
+.sectionmiddle{
+	float: left;
+	width: 50%;
+	background-color: blue;
+}
+.edificiosvisual img{
+	width: 500px;
+	height: 600px;
+	border-radius: 15px;
+}
+
+.edificiosvisual #plano{
+	width: 100%;
+	padding: 0px;
+}
+
+/*estilo de seccion 3*/
+.sectionright{
+	float: left;
+	width: 25%;
+	background-color: green;
+}
+.trabajadoresyedificios{
+  background-color: black;
+}
+
+/*Boton de edificio*/
+.botonedificio{
+	background-color: #b5b5b5;
+	transition: all .2s ease-in-out;
+	border-radius: 10px;
+	width: 100%;
+	margin: 10px 0px 10px 0px;
+}
+.botonedificio:hover{
+	background-color: #c7c7c7;
+	transition: all .2s ease-in-out;
+}
+
+.botonedificio img{
+	width: 64px;
+	height: 64px;
+	border-radius: 15px;
+}
+
+.botonedificio #image{
+	width: 25%;
+	padding: 0px;
+}
+
+.botonedificio #nameAndCost p:first-of-type{
+	font-size: 24px;
+}
+
+.botonedificio #nameAndCost p{
+	margin: 0px;
+}
+
+.botonedificio #amount{
+	font-size: 48px;
+	color: #595959;
+	font-family: roboto;
+	width: 15%;
+}

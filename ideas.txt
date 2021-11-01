@@ -1,0 +1,60 @@
+IDEAS PARA UPO Clicker
+
+-------edificios de progresion----
+1. Estudiante - 10
+	- Nuevo en la upo, proporciona 1 matricula/seg
+
+2. Santa Clara - 200
+	- Café, pizzas y serranitos, todo para que nunca le abandones, 2 matr/seg
+
+3. Señora del edificio 18 - 
+	- Con sus cotilleos engatusan a más estudiantes de la UPO, 4 matr/seg
+
+4. Edificio 24 - 
+	- Las ranas del laguito atraen a los estudiantes aqui, 8 matr/seg
+
+5. Biblioteca CRAI - 
+	- Los estudiantes estudian sin parar pero ninguno saldrá de aquí, 16 matr/seg
+
+6. Edificio del Ikea - 
+	- Un diseño extraño que tambien atrapa a estudiantes de master, 32matr/seg
+
+7. Galería - 
+	- La principal autovía de estudiantes, 64 matr/seg
+
+8. Paradas de metro -
+	- Más estudiantes pueden venir para nunca más salir, 128 matr/seg
+
+9. Campo - 
+	- Necesitamos más terreno para poder dar mas clases, 256 matr/seg
+
+10. Universidad - 
+	- Una sola universidad no da suficientes ingresos, tenemos que hacer MAS - 512 mtr/seg
+
+11. Provincia - 
+	- Necesitamos más provincias donde instaurar la mejor universidad, 1024 matr/seg
+
+12. Comunidad Autónoma -
+	- Crea comunidades autónomas de estudiantes
+
+13. País universitario -
+	- Los estudiantes se han independizan del país debido a que la upo ahora es su hogar
+
+14. Planeta alienígena -
+	- Seres de otros planetas quieren cursar una carrera en la upo también
+
+15. Universo Paralela -
+	- Rasga el tejido de la realidad para convencer a los universos de la supremacía de la educación
+
+16. Pablo de Olavide -
+	- Viaja a través de los universos para reunir a todas las realidades de nuestro creador.
+
+Los Pablo de Olavide de todas las realidades comienzan a reescribir la historia para que nada de lo que ha pasado suceda de verdad.
+
+Esto se debe a que ninguno de los estudiantes sabía quién era Pablo de Olavide cuando se matriculó aqui.
+
+
+-----------------------------
+Ideas miscelaneas
+-----------------------------
+- En las horas de clase la produccion de matriculas aumenta

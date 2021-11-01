@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>UPO Clicker</title>
+		<link rel="stylesheet" type="text/css" href="estiloclicker.css">
+		<script type="text/javascript" src="./codigoclicker.js"></script>
+	</head>
+	<body>
+		<!-- Logo principal-->
+		<div class="sectionleft">
+			<div class="logoynummatriculas">
+				<h1>Matriculas: <span id="score">0</span></h1>
+				<h2>matriculas por segundo: <span id="persecond">0</span></h2>
+				<img src="images/upologo.jpg" height="256" width="256" onclick="addToScore(clickpower)"
+				alt="logoUPO.jpg">
+			</div>
+		</div>
+		<!-- visualizacion de edificios -->
+		<div class="sectionmiddle">
+			<div class="edificiosvisual">
+				<p> Zona para visualizar las compras(W.I.P)</p>
+				<img src="images/Plano-General-del-Campus-3D.jpg" id="plano">
+			</div>
+		</div>
+		<!-- Mejoras de producción -->
+		<div class="sectionright">
+			<div class="mejoras">
+				<p>Zona de compra de mejoras de produccion (W.I.P)</p>
+			</div>
+			<!-- Compra de edificios -->
+			<div class="trabajadoresyedificios">
+				<!-- estudiante -->
+				<table class="botonedificio" onclick="generalBuy(value1,'price1','quantity1')" id="product1">
+					<tr>
+						<td id="image"><img src="images/estudiante.jpeg" alt="student"></td>
+						<td id="nameAndCost">
+							<p>Estudiante</p>
+							<p><span id="price1">15</span> matriculas</p>
+						</td>
+						<td id="amount"><span id="quantity1">0</span></td>
+					</tr>
+				</table>
+				<!-- karen -->
+				<table class="botonedificio" onclick="generalBuy(value2,'price2','quantity2')" id="product2">
+					<tr>
+						<td id="image"><img src="images/karen.jpg" alt="karen"></td>
+						<td id="nameAndCost">
+							<p>Señora del edificio 18</p>
+							<p><span id="price2">100</span> matriculas</p>
+						</td>
+						<td id="amount"><span id="quantity2">0</span></td>
+					</tr>
+				</table>
+				<!-- santaclara -->
+				<table class="botonedificio" onclick="generalBuy(value3,'price3','quantity3')" id="product3">
+					<tr>
+						<td id="image"><img src="images/santaclara.jpg" alt="santaclara"></td>
+						<td id="nameAndCost">
+							<p>Santa Clara</p>
+							<p><span id="price3">1100</span> matriculas</p>
+						</td>
+						<td id="amount"><span id="quantity3">0</span></td>
+					</tr>
+				</table>
+				<!-- edificio24 -->
+				<table class="botonedificio" onclick="generalBuy(value4, 'price4', 'quantity4')" id="product4">
+					<tr>
+						<td id="image"><img src="images/edificio24.jpg" alt="edificio24"></td>
+						<td id="nameAndCost">
+							<p>Edificio 24</p>
+							<p><span id="price4">12000</span> matriculas</p>
+						</td>
+						<td id="amount"><span id="quantity4">0</span></td>
+					</tr>
+				</table>
+				<!-- biblioteca crai -->
+				<table class="botonedificio" onclick="generalBuy(value5, 'price5', 'quantity5')" id="product5">
+					<tr>
+						<td id="image"><img src="images/crai.jpeg" alt="crai"></td>
+						<td id="nameAndCost">
+							<p>Biblioteca</p>
+							<p><span id="price5">130000</span> matriculas</p>
+						</td>
+						<td id="amount"><span id="quantity5">0</span></td>
+					</tr>
+				</table>
+				<!-- edificiodelikea -->
+				<table class="botonedificio" onclick="generalBuy(value6, 'price6', 'quantity6')" id="product6">
+					<tr>
+						<td id="image"><img src="images/edificioikea.jpeg" alt="edificioikea"></td>
+						<td id="nameAndCost">
+							<p>Edificio del IKEA</p>
+							<p><span id="price6">1400000</span> matriculas</p>
+						</td>
+						<td id="amount"><span id="quantity6">0</span></td>
+					</tr>
+				</table>
+				<!-- galeria -->
+				<table class="botonedificio" onclick="generalBuy(value7, 'price7', 'quantity7')" id="product7">
+					<tr>
+						<td id="image"><img src="images/galeria.jpg" alt="galeria"></td>
+						<td id="nameAndCost">
+							<p>Galeria</p>
+							<p><span id="price7">20000000</span> matriculas</p>
+						</td>
+						<td id="amount"><span id="quantity7">0</span></td>
+					</tr>
+				</table>
+				<!-- paradas de metro -->
+				<table class="botonedificio" onclick="generalBuy(value8, 'price8', 'quantity8')" id="product8">
+					<tr>
+						<td id="image"><img src="images/metro.jpg" alt="metro"></td>
+						<td id="nameAndCost">
+							<p>Paradas de metro</p>
+							<p><span id="price8">330000000</span> matriculas</p>
+						</td>
+						<td id="amount"><span id="quantity8">0</span></td>
+					</tr>
+				</table>
+				<!-- campo -->
+				<table class="botonedificio" onclick="generalBuy(value9, 'price9', 'quantity9')" id="product9">
+					<tr>
+						<td id="image"><img src="images/campo.jpg" alt="campo"></td>
+						<td id="nameAndCost">
+							<p>Campo</p>
+							<p><span id="price9">5100000000</span> matriculas</p>
+						</td>
+						<td id="amount"><span id="quantity9">0</span></td>
+					</tr>
+				</table>
+				<!-- universidad -->
+				<table class="botonedificio" onclick="generalBuy(value10, 'price10','quantity10')" id="product10">
+					<tr>
+						<td id="image"><img src="images/universidad.jpeg" alt="universidad"></td>
+						<td id="nameAndCost">
+							<p>Universidad</p>
+							<p><span id="price10">75000000000</span> matriculas</p>
+						</td>
+						<td id="amount"><span id="quantity10">0</span></td>
+					</tr>
+				</table>
+				<!-- provincia -->
+				<table class="botonedificio" onclick="generalBuy(value11, 'price11','quantity11')" id="product11">
+					<tr>
+						<td id="image"><img src="images/sevilla.png" alt="provincia"></td>
+						<td id="nameAndCost">
+							<p>Provincia</p>
+							<p><span id="price11">1000000000000</span> matriculas</p>
+						</td>
+						<td id="amount"><span id="quantity11">0</span></td>
+					</tr>
+				</table>
+				<!-- comunidad autonoma -->
+				<table class="botonedificio" onclick="generalBuy(value12, 'price12','quantity12)" id="product12">
+					<tr>
+						<td id="image"><img src="images/comunidadautonoma.jpg" alt="comautonoma"></td>
+						<td id="nameAndCost">
+							<p>Comunidad autonoma</p>
+							<p><span id="price12">14000000000000</span> matriculas</p>
+						</td>
+						<td id="amount"><span id="quantity12">0</span></td>
+					</tr>
+				</table>
+				<!-- pais universitario -->
+				<table class="botonedificio" onclick="generalBuy(value13, 'price13','quantity13')" id="product13">
+					<tr>
+						<td id="image"><img src="images/espana.png" alt="paisuniversitario"></td>
+						<td id="nameAndCost">
+							<p>País Universitario</p>
+							<p><span id="price13">170000000000000</span> matriculas</p>
+						</td>
+						<td id="amount"><span id="quantity13">0</span></td>
+					</tr>
+				</table>
+				<!-- planeta alienigena -->
+				<table class="botonedificio" onclick="generalBuy(value14, 'price14','quantity14')" id="product14">
+					<tr>
+						<td id="image"><img src="images/planeta.jpeg" alt="planeta"></td>
+						<td id="nameAndCost">
+							<p>Planeta alienígena</p>
+							<p><span id="price14">2100000000000000</span> matriculas</p>
+						</td>
+						<td id="amount"><span id="quantity14">0</span></td>
+					</tr>
+				</table>
+				<!-- universo paralelo -->
+				<table class="botonedificio" onclick="generalBuy(value15, 'price15','quantity15')" id="product15">
+					<tr>
+						<td id="image"><img src="images/universo.jpeg" alt="universoparalelo"></td>
+						<td id="nameAndCost">
+							<p>Universo Paralelo</p>
+							<p><span id="price15">26000000000000000</span> matriculas</p>
+						</td>
+						<td id="amount"><span id="quantity15">0</span></td>
+					</tr>
+				</table>
+				<!-- pablo de olavide -->
+				<table class="botonedificio" onclick="generalBuy(value16, 'price16','quantity16')" id="product16">
+					<tr>
+						<td id="image"><img src="images/pabloolavide.jpeg" alt="pablodeolavide"></td>
+						<td id="nameAndCost">
+							<p>Pablo de Olavide</p>
+							<p><span id="price16">310000000000000000</span> matriculas</p>
+						</td>
+						<td id="amount"><span id="quantity16">0</span></td>
+					</tr>
+				</table>
+				
+			</div>
+		</div>
+	</body>
+</html>
